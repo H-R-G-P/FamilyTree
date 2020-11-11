@@ -1,0 +1,17 @@
+{
+  "name": "vendor_name/family_tree",
+  "description": "App for drawing family tree.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "danik",
+      "email": "danik.shumakovich@gmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^7.0",
+    "ext-mysqli": "*",
+    "ext-pdo": "*"
+  }
+}
