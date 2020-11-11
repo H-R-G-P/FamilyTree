@@ -20,7 +20,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfd3bf78-6f00-4967-87d2-bf1e1a028f75" name="Default Changelist" comment="">
+    <list default="true" id="bfd3bf78-6f00-4967-87d2-bf1e1a028f75" name="Default Changelist" comment="init">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/familyTree.iml" afterDir="false" />
@@ -32,6 +32,7 @@
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/JS/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/classes/DELETEpost.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,8 +303,16 @@
       <workItem from="1604929435733" duration="202000" />
       <workItem from="1604955963635" duration="7000" />
       <workItem from="1605085793305" duration="3537000" />
-      <workItem from="1605106445525" duration="643000" />
+      <workItem from="1605106445525" duration="1090000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1605107364086</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605107364086</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,6 +340,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
     <state x="538" y="195" width="824" height="678" key="#CLI_Interpreters" timestamp="1604407057441">
