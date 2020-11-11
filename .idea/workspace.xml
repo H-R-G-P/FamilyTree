@@ -290,7 +290,7 @@
       <workItem from="1604929435733" duration="202000" />
       <workItem from="1604955963635" duration="7000" />
       <workItem from="1605085793305" duration="3537000" />
-      <workItem from="1605106445525" duration="1423000" />
+      <workItem from="1605106445525" duration="2073000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1605107364086</created>
@@ -327,7 +327,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605107869023</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="init">
+      <created>1605107877298</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605107877298</updated>
+    </task>
+    <task id="LOCAL-00007" summary="init">
+      <created>1605108840694</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605108840694</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,6 +535,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="684" y="274" width="540" height="524" key="StructurePopup/0.0.1920.1080@0.0.1920.1080" timestamp="1599033463279" />
+    <state x="555" y="271" width="800" height="530" key="Vcs.Push.Dialog.v2" timestamp="1605108846810">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="555" y="271" width="800" height="530" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1605108846810" />
     <state x="857" y="417" width="188" height="234" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1599419251368">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

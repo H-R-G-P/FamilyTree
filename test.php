@@ -5,7 +5,7 @@
     <title>Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="CSS/index.css"/>
-    <link rel="stylesheet" href="Libraries/bootstrap_4.5.2.css">
+    <link rel="stylesheet" href="http://localhost/libraries/bootstrap_4.5.2.css">
 </head>
 <body>
 <p>
@@ -191,9 +191,9 @@
 
     <script src="JS/index.js"></script>
 
-    <script src="Libraries/jquery-3.5.1.slim.js"></script>
-    <script src="Libraries/popper.js"></script>
-    <script src="Libraries/bootstrap_4.5.2.js"></script>
+    <script src="http://localhost/libraries/jquery-3.5.1.slim.js"></script>
+    <script src="http://localhost/libraries/popper.js"></script>
+    <script src="http://localhost/libraries/bootstrap_4.5.2.js"></script>
 </body>
 </html>
 
