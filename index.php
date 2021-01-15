@@ -26,8 +26,8 @@
                                   <th scope="col">description</th>
                                 </tr>
                               </thead>
-                              <tbody>
-                                <tr>
+                              <tbody id="tbody">
+                                <tr id="peopleRow">
                                   <th scope="row">People</th>
                                   <td class="bg-danger"><input type="text" name="people_FN" id="people_FN" list="allFN"></td>
                                   <td><input type="text" name="people_LN" id="people_LN" list="allLN"></td>
@@ -58,7 +58,9 @@
                             </table>
                             <?php require 'modules/makeDatalists.php'; ?>
                             <div class="row mt-3 d-flex justify-content-center">
-                                <input type='submit' value='Add'>
+                                <input type="button" value='Add sister' onclick="addSister()">
+                                <input type="button" value='Add brother' onclick="addBrother()" class="ml-3">
+                                <input type='submit' value='Add to tree' class="ml-3">
                             </div>
                         </form>
                     </div>
@@ -95,11 +97,26 @@
         </div>
     </div>
 
-    <script src="JS/index.js"></script>
+    <script>
+        'use strict'
+
+        let peopleRow = document.getElementById('peopleRow');
+        let row = peopleRow.cloneNode(true);
+        let tbody = document.getElementById('tbody');
+
+        function addSister() {
+            row.children[0].innerHTML = 'Sister';
+            tbody.innerHTML += row.outerHTML;
+        }
+
+        function addBrother() {
+            row.children[0].innerHTML = 'Brother';
+            tbody.innerHTML += row.outerHTML;
+        }
+    </script>
 
     <script src="http://localhost/libraries/jquery-3.5.1.slim.js"></script>
     <script src="http://localhost/libraries/popper.js"></script>
     <script src="http://localhost/libraries/bootstrap_4.5.2.js"></script>
 </body>
 </html>
-<?php // TODO: Добавить ещё две формы поверх 'add', так что бы влюбое время была видна только одна из них. Можно с сайта bootstrap скопировать, вроде, книжки назывался элемент.
